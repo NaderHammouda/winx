@@ -5,7 +5,7 @@ stages:
 build:
     stage: build
     tags: 
-        - my-run0
+        - devops
     script:
         - echo "Building deploy package"
         - yarn install
