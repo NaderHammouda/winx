@@ -6,6 +6,7 @@ build:
     stage: build
     tags: 
         - devops
+        - docker
     script:
         - echo "Building deploy package"
         - yarn install
