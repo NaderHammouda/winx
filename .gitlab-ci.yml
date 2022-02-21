@@ -1,0 +1,11 @@
+default:
+  image: node:16.13.1
+
+stages:
+  - deploy
+
+aws-deploy-job:
+  stage: deploy
+  script:
+    - npm install
+    - npm run deploy
