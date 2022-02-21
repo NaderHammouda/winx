@@ -5,8 +5,7 @@ stages:
 build:
     stage: build
     tags: 
-        - <tag you provided while registering the token>
-        - <second tag>
+        - my-run0
     script:
         - echo "Building deploy package"
         - yarn install
