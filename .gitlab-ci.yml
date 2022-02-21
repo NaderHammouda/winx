@@ -8,7 +8,8 @@ build:
   script: 
     - echo "Start building App"
     - npm install
-    - npm build
+    - npm --version
+    - npm run build
     - echo "Build successfully!"
 
 test:
