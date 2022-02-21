@@ -1,6 +1,6 @@
 stages:
   - build
-  - sonarqube-check
+  - test
   - docker-build
 
 build:
@@ -17,8 +17,16 @@ build:
       - build
       - node_modules/
 
+test:
+  stage: test
+  image: node
+  script:
+    - echo "Testing App"
+    - CI=true npm test
+    - echo "Test successfully!"
+
 sonarqube-check:
-  stage: sonarqube-check
+  stage: test
   image: 
     name: sonarsource/sonar-scanner-cli:latest
     entrypoint: [""]
