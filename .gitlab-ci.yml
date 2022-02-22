@@ -49,10 +49,9 @@ docker-build:
   #stage: docker-build
   image: docker:latest
   services: 
-    - name: docker:19.03.8-dind
+    - name: docker:dind
   before_script:
-    - echo "$CI_REGISTRY_TOKEN" | docker login -u "$CI_REGISTRY_USER" --password-stdin 
-    #- docker login  -u "$CI_REGISTRY_USER" - "$CI_REGISTRY_TOKEN"
+    - echo "$CI_REGISTRY_TOKEN" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
   script:
     - docker build --pull -t "$CI_REGISTRY_IMAGE" .
     - docker push "$CI_REGISTRY_IMAGE"
