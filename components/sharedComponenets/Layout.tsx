@@ -10,9 +10,7 @@ return(
     <Head>
     <title>WinX</title>
     </Head>
-    <header>
-        #sidebar
-    </header>
+    
     <main>
         {children}
     </main>

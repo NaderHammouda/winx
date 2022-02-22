@@ -1,0 +1,18 @@
+.titleOpportunities{
+    font-weight: 300!important;
+    
+}
+/* .container{
+    background-color:  ;
+}  */
+
+.header_opportunities{
+    display: flex;
+    justify-content: space-between;
+}
+.filter_button{
+    background-color:#c8bebe ;
+    cursor: pointer;
+    color: white;
+    justify-content: flex-end;
+}
