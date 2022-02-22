@@ -1,0 +1,65 @@
+.navContainer {
+    position: relative;
+    top: 1%;
+}
+.langIcon {
+    position: absolute;
+    top: 41%;
+    left: -25%;
+}
+
+.profilIcon {
+    position: absolute;
+    top: 41%;
+}
+.langMenu{
+    position: relative;
+    top: 20%;
+    border: none;
+    margin-left: -12%;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .navButton {
+    background-color: gainsboro;
+    border: none;
+    color: black;
+    border-radius: 30px;
+    width: 100px;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.rightButton {
+    position: relative;
+    top: 8%;
+    background-color: white;
+}
+.profileName {
+    position: relative;
+    top: 32%;
+}
+.searchInput{
+    position: relative;
+    width: 50%;
+}
+.searchIcon {
+    position: relative;
+    left: -7%;
+    top: 9%;
+}
+.profileDropdown{
+    position: relative;
+    top: 30%;
+}

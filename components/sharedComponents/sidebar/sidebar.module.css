@@ -1,0 +1,28 @@
+.flexRow{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+.firstMenuItem {
+    width:100px;
+    position:absolute;
+    top: 24%;
+    left: 18%;
+}
+.menuIcon{
+    width:50px
+}
+.menuTitle {
+    position: relative;
+    left: 0%;
+    margin-bottom: 5%;
+}
+.menuLogo {
+    width: 150px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}

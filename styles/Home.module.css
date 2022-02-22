@@ -114,3 +114,10 @@
     flex-direction: column;
   }
 }
+
+.footerPosition {
+  position: absolute;
+  bottom: 5%;
+  left: 33%;
+  height: 80px;
+}
