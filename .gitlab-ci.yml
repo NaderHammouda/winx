@@ -47,7 +47,7 @@
     #- echo "$CI_REGISTRY_TOKEN" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
 
 docker-build:
-  stage: docker-build
+  #stage: docker-build
   image: docker:latest
   services: 
     - name: docker:19.03.8-dind
