@@ -1,65 +1,103 @@
 .navContainer {
-    position: relative;
-    top: 1%;
+  position: relative;
+  top: 1%;
+  border-bottom: 1px solid rgb(223, 219, 216);
+}
+.navClass {
+  background-color: rgb(241, 235, 231) !important;
+  height: 65px;
+}
+.searchContainer {
+  position: relative;
+  left: 2%;
 }
 .langIcon {
-    position: absolute;
-    top: 41%;
-    left: -25%;
+  position: absolute;
+  top: 41%;
+  left: -25%;
 }
 
 .profilIcon {
-    position: absolute;
-    top: 41%;
+  position: absolute;
+  top: 41%;
 }
-.langMenu{
-    position: relative;
-    top: 20%;
-    border: none;
-    margin-left: -12%;
+.langMenu {
+  position: relative;
+  top: 20%;
+  border: none;
+  margin-left: -12%;
 }
 .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
-  .navButton {
-    background-color: gainsboro;
-    border: none;
-    color: black;
-    border-radius: 30px;
-    width: 100px;
-  }
-  .avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.navButton {
+  background-color: gainsboro;
+  border: none;
+  color: black;
+  border-radius: 30px;
+  width: 100px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 .rightButton {
-    position: relative;
-    top: 8%;
-    background-color: white;
+  position: relative;
+  top: 8%;
+  background-color: white;
+  color: rgb(128, 128, 128);
 }
 .profileName {
-    position: relative;
-    top: 32%;
+  position: relative;
+  top: 32%;
 }
-.searchInput{
-    position: relative;
-    width: 50%;
+.searchInput {
+  position: relative;
+  top: 21%;
+  width: 70%;
 }
 .searchIcon {
-    position: relative;
-    left: -7%;
-    top: 9%;
+  position: absolute;
+  bottom: 29%;
+  right: 5%;
 }
-.profileDropdown{
-    position: relative;
-    top: 30%;
+.profileDropdown {
+  position: relative;
+  top: 30%;
+}
+.secondLi {
+  position: absolute;
+  right: 32%;
+  top: 27%;
+  margin-top: 7px;
+}
+.firstLi {
+  position: absolute;
+  right: 56%;
+  top: 25%;
+}
+.liButton {
+  position: absolute;
+  right: 3%;
+  top: 25%;
+}
+
+.ulClass {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  height: 100%;
+  margin-bottom: 0;
+}
+input.form-control::placeholder {
+  color: red !important;
 }

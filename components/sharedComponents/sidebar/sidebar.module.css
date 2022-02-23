@@ -1,28 +1,63 @@
-.flexRow{
-    position:relative;
-    display: flex;
-    flex-direction: row;
+.sidebarContainer {
+  position: relative;
+  margin-left: 3%;
 }
-.flexColumn{
-    display: flex;
-    flex-direction: column;
+.flexRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
 }
 .firstMenuItem {
-    width:100px;
-    position:absolute;
-    top: 24%;
-    left: 18%;
+  width: 100px;
+  position: absolute;
+  top: 24%;
+  left: 18%;
+  color: rgb(146, 146, 146);
 }
-.menuIcon{
-    width:50px
+.menuIcon {
+  width: 50px;
 }
 .menuTitle {
-    position: relative;
-    left: 0%;
-    margin-bottom: 5%;
+  position: relative;
+  left: 0%;
+  margin-bottom: 5%;
+  color: rgb(190, 192, 200);
 }
 .menuLogo {
-    width: 150px;
-    margin-bottom: 7%;
-    margin-top: 5%;
+  width: 117px;
+  margin-bottom: 7%;
+  margin-top: 12%;
+  height: 30px;
+}
+.logoContainer {
+  height: 73px;
+  border-bottom: 1px solid rgb(223, 219, 216);
+}
+.sidebarFirstIcon {
+  position: absolute;
+  top: 24%;
+  left: 5%;
+  height: 20px;
+  width: 15px;
+  background-color: rgb(183, 183, 183);
+  border-radius: 4px;
+}
+.sidebarGeneralIcon {
+  position: relative;
+  top: 24%;
+  left: 5%;
+  height: 20px;
+  width: 15px;
+  background-color: rgb(183, 183, 183);
+  border-radius: 4px;
+}
+.sidebarSpan {
+  position: relative;
+  left: 5%;
+  color: rgb(146, 146, 146);
 }

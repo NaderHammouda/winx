@@ -1,22 +1,18 @@
 import "bootstrap/dist/css/bootstrap.css";
 import styles from "./sidebar.module.css";
-import { useEffect } from "react";
 import "react-dropdown/style.css";
 
 function SidebarMenu() {
   return (
-    <div>
-        <div className={`${"row"} ${styles.flexRow}`}>
-        <img
-          className={`${styles.menuLogo}`}
-          src="/logowinex.png"
-        />
+    <div className={`${styles.sidebarContainer}`}>
+      <div className={`${"row"} ${styles.flexRow} ${styles.logoContainer}`}>
+        <img className={`${styles.menuLogo}`} src="/logowinex.png" />
       </div>
-      <div className={`${"row"} ${styles.flexRow}`}>
-        <img
-          className={`${styles.menuIcon}`}
-          src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-        />
+      <div
+        className={`${"row"} ${styles.flexRow}`}
+        style={{ marginTop: "10%", marginBottom: "16%" }}
+      >
+        <div className={`${styles.sidebarFirstIcon}`}></div>
         <span className={`${styles.firstMenuItem}`}>My WinX</span>
       </div>
       <div
@@ -29,20 +25,18 @@ function SidebarMenu() {
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Dashboards</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Dashboards
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Reports</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Reports
+          </span>
         </div>
       </div>
       <div
@@ -55,29 +49,26 @@ function SidebarMenu() {
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Accounts</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Accounts
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Contacts</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Contacts
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Opportunities</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Opportunities
+          </span>
         </div>
       </div>
       <div
@@ -90,29 +81,26 @@ function SidebarMenu() {
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Risks</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Risks
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Issues</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Issues
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Activities</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Activities
+          </span>
         </div>
       </div>
       <div
@@ -125,47 +113,42 @@ function SidebarMenu() {
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Documents</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Documents
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Expenses</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Expenses
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Time</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Time
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Ressources</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Ressources
+          </span>
         </div>
       </div>
       <div className={`${"row"} ${styles.flexColumn}`}>
         <div className={`${"row"} ${styles.flexRow}`}>
-          <img
-            className={`${styles.menuIcon}`}
-            src="https://img.icons8.com/ios-filled/50/000000/down-squared--v1.png"
-          />
-          <span className={`${styles.firstMenuItem}`}>Approvals</span>
+          <div className={`${styles.sidebarGeneralIcon}`}></div>
+          <span className={`${styles.firstMenuItem} ${styles.sidebarSpan}`}>
+            Approvals
+          </span>
         </div>
       </div>
     </div>

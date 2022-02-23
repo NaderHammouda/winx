@@ -1,0 +1,8 @@
+.floatButton {
+  position: absolute;
+  bottom: 9%;
+  right: 4%;
+}
+#floatIcon {
+  width: 80px;
+}
