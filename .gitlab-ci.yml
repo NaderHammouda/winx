@@ -22,7 +22,7 @@ test:
   image: node
   script:
     - echo "Testing App"
-    - CI=true npm run unit
+    - CI=true npm run test
     - echo "Test successfully!"
 
 sonarqube-check:
