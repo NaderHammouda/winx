@@ -1,0 +1,89 @@
+.card_button{
+    background-color:#c8bebe ;
+    cursor: pointer;
+    color: white!important;
+    justify-content: flex-start;
+    width:75px ;
+    height: 30px;
+    margin-left: 30px;
+    
+}
+
+.header_card{
+    display: flex;
+    justify-content: space-between;
+}
+.secondbutton{
+    background-color:#c8bebe ;
+    cursor: pointer;
+    color: white!important;
+    justify-content: flex-start;
+    width:38px ;
+    height: 30px;
+    margin-left: 5px;
+    
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: #c8bebe;
+    margin-right: 15px;
+
+  }
+.scoring{
+    display:flex;
+    justify-content: space-between;
+}
+.score_title{
+    font-size: 12px;
+    
+}
+.list_scoring{
+    padding-left: 0;
+    
+}
+.scoring_item{
+    list-style: none;
+    display: flex;
+}
+.item_value{
+    font-size: 11px;
+}
+.item_name{
+    font-size: 9px;
+}
+.descripton_card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bloc_description{
+    font-size: 9px;
+    
+}
+.assesment_owner{
+    font-size: 9px;
+    color:#c8bebe;
+}
+.assessment_owner_value{
+    font-size: 11px;
+}
+.health{
+    background-color: #c8bebe;
+    width:30px;
+    height: 15px;
+    border-radius: 6px;
+    
+
+}
+.opportunity_card{
+    border-radius: 10px;
+    box-shadow:  12px 12px 2px 1px  #c8bebe;
+    
+    
+}

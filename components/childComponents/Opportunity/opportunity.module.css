@@ -5,7 +5,10 @@
 /* .container{
     background-color:  ;
 }  */
-
+.opportunities{
+    padding-top: 5%;
+    background-color: #f7f0ec;
+}
 .header_opportunities{
     display: flex;
     justify-content: space-between;
@@ -13,6 +16,6 @@
 .filter_button{
     background-color:#c8bebe ;
     cursor: pointer;
-    color: white;
+    color: white!important;
     justify-content: flex-end;
 }

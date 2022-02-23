@@ -1,4 +1,4 @@
-import Opportunity from "../components/childComponents/Opportunity";
+import Opportunity from "../components/childComponents/Opportunity/Opportunity"
 
 
 export default function oppotunity(){
