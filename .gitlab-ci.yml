@@ -44,6 +44,7 @@ sonarqube-check:
     - merge_requests
     - main # or the name of your main branch
     - develop
+    - dashboard
 
 docker-build:
   stage: docker-build
