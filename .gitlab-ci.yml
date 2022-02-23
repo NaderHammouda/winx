@@ -16,4 +16,4 @@ sonarqube-check:
     - merge_requests
     - main # or the name of your main branch
     - develop
-    - ops   
+    - obs   
