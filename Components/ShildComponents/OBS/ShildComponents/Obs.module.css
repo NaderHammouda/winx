@@ -1,0 +1,196 @@
+ 
+
+.ObsSection{
+background: rgb(243,239,236);
+}
+ 
+
+ 
+ 
+ .cards {
+     border: solid white 4px;
+  position: relative;
+  width: 300px;
+  height: 425px;
+  background: linear-gradient(#ffffff, #ffffff 30%, rgb(243,239,236) 30%, rgb(243,239,236));
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+ .cards .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: 100000;
+  border-radius: 20px;
+  overflow: hidden;
+  transform-origin: top;
+}
+
+ .cards:hover .imgBx {
+  transform: translateY(10px) scale(0.5);
+  left:-.3rem;
+}
+
+ .cards .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ .cards .content {
+  position: absolute;
+  top: 0;
+  left: -.3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top:  100px !important;
+  text-align: center !important;
+  
+  transform: translateY(10%);
+  transition: 0.5s;
+}
+
+ .cards:hover .content {
+  transform: translateY(0);
+}
+
+ .cards .content .details {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  flex-direction: column;
+  text-align: center !important;
+  margin-bottom:  -.3rem;
+}
+
+ .cards .content .details  h2 {
+  color: rgb(182,159,117);
+  font-size: 1.5em;
+  font-weight: 500;
+
+ }
+
+.container .cards .content .details h2 span {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: rgb(182,159,117);
+}
+
+.socialIcons {
+  position: relative;
+  display: flex;
+ 
+}
+
+.socialIcons ul{
+display: flex;
+justify-content: center;
+text-align: center;
+
+ 
+}
+.socialIcons li {
+  list-style: none;
+  margin: 4px;
+  margin-right: 2.7rem !important;
+ margin-bottom: -11.5% !important;
+}
+
+.socialIcons li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+ 
+}
+#socilaMedia{
+    margin-left: 15.5% !important;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+
+.socialIcons li a:hover {
+  transform: rotate(360deg);
+  background: rgb(243,239,236);
+  color: white;
+}
+.socialIcons li a:hover #svg {
+    transform: rotate(360deg);
+    background: rgb(243,239,236);
+    color: white;
+  }
+
+.pop{
+ 
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        background: #ffffff;
+        border-radius: 50%;
+        font-size: 1.5em;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.5s;
+ 
+}
+.pop:hover {
+    transform: rotate(360deg);
+    background: rgb(243,239,236);
+
+  }
+  #svg{
+    color: rgb(182,159,117);
+      width: 5rem !important;
+    
+  }
+  .pop:hover #svg{
+  
+ 
+    color: white;
+  }
+  #crud{
+      width: 100% !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      margin-bottom: -.2rem;
+      margin-left: 2.5%;
+  }
+  .spanSection{
+      width: 100%;
+      padding-top:  .3rem;
+      padding-bottom: .5rem;
+  }
+  .span{
+      background-color: white;
+      width: auto;
+      padding: .3rem;
+      padding-left: 1.9rem;
+      padding-right: 1.9rem;
+
+      text-align: center;
+    color: rgb(182,159,117);
+    border-radius: 6%
+    
+      
+  }
