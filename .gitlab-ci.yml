@@ -17,13 +17,13 @@ build:
       - build
       - node_modules/
 
-#test:
- # stage: test
-  #image: node
-  #script:
-   # - echo "Testing App"
-    #- CI=true npm run unit
-    #- echo "Test successfully!"
+test:
+  stage: test
+  image: node
+  script:
+    - echo "Testing App"
+    - CI=true npm run unit
+    - echo "Test successfully!"
 
 sonarqube-check:
   stage: test
