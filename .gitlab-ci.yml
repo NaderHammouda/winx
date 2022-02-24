@@ -45,6 +45,7 @@ build:
     #- main # or the name of your main branch
 
 sonarqube-check:
+  stage: test
   image: 
     name: sonarsource/sonar-scanner-cli:latest
     entrypoint: [""]
@@ -59,7 +60,8 @@ sonarqube-check:
     - sonar-scanner
   allow_failure: true
   only:
-    - master # or the name of your main branch
+    - merge_requests
+    - main # or the name of your main branch
 
 
 docker-build:
